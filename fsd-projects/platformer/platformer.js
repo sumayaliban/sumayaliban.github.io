@@ -34,8 +34,8 @@ $(function () {
   createPlatform(150, 650, 50, 50, "red");
   createPlatform(250, 575, 50, 50, "purple")
   createPlatform(350, 500, 50, 50,  "yellow")
-  createPlatform(450, 550, 50, 50,  "green")
-  createPlatform(550, 550, 200, 50,   "pink")
+  createPlatform(450, 650, 50, 50,  "green")
+  createPlatform(650, 550, 200, 50,   "pink")
   
 
 
@@ -50,7 +50,7 @@ createCollectable("max", 500, 200, 1.0, 1.0)
     // TODO 4 - Create Cannons
 createCannon("right", 550, 2000);
 createCannon("left", 450, 1000)
-createCannon("bottom", 500, 1000)
+createCannon("bottom", 550, 1000)
     
     
     //////////////////////////////////
